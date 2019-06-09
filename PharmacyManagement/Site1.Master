@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="PharmacyManagement.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+   
+     <link href="MyCssFile.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+     <title>Pharmacy Management</title>
+<script type="text/javascript" src="sc/cufon-yui.js"></script>
+<script type="text/javascript" src="sc/cufon-georgia.js"></script>
+<script type="text/javascript" src="sc/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="sc/script.js"></script>
+<script type="text/javascript" src="sc/coin-slider.min.js"></script>
+
+
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div class="main">
+  <div class="main_resize">
+    <div class="header">
+      <div class="logo">
+        <h1><a href="#"><span>Pharma</span>ManagementSys</a></h1>
+      </div>
+      <div class="search">
+        <form method="get" id="search" action="#">
+          <span>
+          <input type="text" value="Search..." name="s" id="s" />
+          <input name="searchsubmit" type="image" src="images/search.gif" value="Go" id="searchsubmit" class="btn"  />
+          </span>
+        </form>
+        <!--/searchform -->
+        <div class="clr"></div>
+      </div>
+     
+
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+       
+      <div class="slider">
+        <div id="coin-slider"> <a href="#"><img src="images/10.jpg" width="960" height="360" alt="" /><span>"True friendship is when you walk into their house and your WiFi connects automatically"</span></a> <a href="#"><img src="images/11.jpeg" width="960" height="360" alt="" /><span>"Friendship consists in forgetting what one gives and remembering what one receives. – Alexander Dumas"</span></a> <a href="#"><img src="images/12.jpg" width="960" height="360" alt="" /><span>"Be slow to fall into friendship; but when thou art in, continue firm & constant. – Socrates"</span></a> </div>
+      
+      </div>
+    
+
+     <h2 class="star"><span>Sidebar</span> Menu</h2>
+            <br />
+            <br />
+            <br />
+        <br />
+            <br />
+            <br />
+          &nbsp;<div class="sidebar">
+          <div class="gadget">
+            <div class="clr"></div>
+            <ul class="sb_menu">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+              
+              <li><a href="_login.aspx">Log out</a></li>
+            
+            </ul>
+          </div>
+          
+              
+        </div>
+
+
+    <div class="content">
+      <div class="content_bg">
+        <div class="mainbar">
+          <div class="article">
+            <h2><span>Started On</span></h2>
+            <div class="clr"></div>
+            <p class="post-data"><span class="date">Oct, 12th, 2014</span> &nbsp;|&nbsp; Created By by Team Pharma &nbsp;
+            <img src="images/7.jpg" width="613" height="293" alt="" />
+            <p>This is a Pharmacy Management System. <br />
+        
+            <div class="clr"></div>
+          </div>
+          <div class="article">
+            <h2><span>Pharmacy</span> Management</h2>
+            <div class="clr"></div>
+            <p class="post-data"><span class="date">Oct, 12th, 2014</span> &nbsp;|&nbsp; Posted by Owner &nbsp;|&nbsp;</p>
+            <img src="images/1.jpg" width="613" height="250" alt="" />
+            <p>A Pharmacy Management Sysytem is one which maintains record of all medicines purchased by the middle man from Medicine Manufacturers and also of the medicines sold to Pharmacies.</p>
+            
+      
+            <div class="clr"></div>
+          </div>
+          
+        </div>
+       
+        <div class="clr"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="fbg">
+    <div class="fbg_resize">
+      <div class="col c1">
+        <h2><span>Image Gallery</span></h2>
+        <a href="#"><img src="images/pic_1.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/pic_2.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/pic_3.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/pic_4.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/pic_5.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/pic_6.jpg" width="58" height="58" alt="" /></a> </div>
+      <div class="col c2">
+        <h2><span>Designer</span></h2>
+        <p>Team Pharma<br />
+          Team Pharma is a group of students doing Bachelors in Computer Science from Fast-NU, Lahore. Feel free to contact us any time at team_pharma@gmail.com</p>
+      </div>
+      <div class="col c3">
+        <h2><span>About</span></h2>
+        <p>This website is designed so that the middle man can keep record of all medicines purchased by him and sold by him.</p>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="footer_resize">
+    <p class="lf">&copy; Copyright <a href="#">Furqan Nadeem</a>.</p>
+    <div class="clr"></div>
+  </div>
+</div>
+
+    </form>
+</body>
+</html>

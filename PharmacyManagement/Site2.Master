@@ -1,0 +1,112 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="PharmacyManagement.Site2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="MyCssFile.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+     <title>Pharmacy Management</title>
+
+
+
+</head>
+<body>
+   
+   
+        
+
+    <form id="form1" runat="server">
+    <div class="main">
+  <div class="main_resize">
+    <div class="header">
+        <div class="logo">
+            <h1><a href="#"><span>Pharma</span>ManagementSys</a></h1>
+        </div>
+      <div class="search">
+        <form method="get" id="search" action="#">
+          <span>
+          <input type="text" value="Search..." name="s" id="s" />
+          <input name="searchsubmit" type="image" src="images/search.gif" value="Go" id="searchsubmit" class="btn"  />
+          </span>
+        </form>
+        <!--/searchform -->
+        
+    </div>
+        <br />
+       <br />
+    <br />
+        <br />
+         <br />
+         <br />
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+       
+          <form>
+         <h2 class="star"><span>Sidebar</span> Menu</h2>
+            <br />
+            <br />
+            <br />
+          &nbsp;<div class="sidebar">
+          <div class="gadget">
+            <div class="clr"></div>
+            <ul class="sb_menu">
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server"></asp:ContentPlaceHolder>
+        
+              
+                <li><a href="_login.aspx">Log out</a></li>
+            
+            </ul>
+          </div>
+          
+           
+        </div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+           
+         </form>
+        <br />
+            <br />
+            <br />
+            <br />
+      </div>
+    </div>
+  </div>
+
+
+  <div class="fbg">
+    <div class="fbg_resize">
+      <div class="col c1">
+        <h2><span>Image Gallery</span></h2>
+        <a href="#"><img src="images/pic_1.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/pic_2.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/pic_3.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/pic_4.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/pic_5.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/pic_6.jpg" width="58" height="58" alt="" /></a> </div>
+      <div class="col c2">
+        <h2><span>Designer</span></h2>
+        <p>Team Pharma<br />
+          Team Pharma is a group of students doing Bachelors in Computer Science from Fast-NU, Lahore. Feel free to contact us any time at team_pharma@gmail.com</p>
+      </div>
+      <div class="col c3">
+        <h2><span>About</span></h2>
+        <p>This website is designed so that the middle man can keep record of all medicines purchased by him and sold by him.</p>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="footer_resize">
+    <p class="lf">&copy; Copyright <a href="#">Furqan Nadeem</a>.</p>
+    <div class="clr"></div>
+  </div>
+</div>
+
+    </form>
+   
+    
+</body>
+</html>

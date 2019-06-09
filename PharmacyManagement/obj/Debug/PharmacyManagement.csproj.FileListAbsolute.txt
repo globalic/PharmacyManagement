@@ -1,0 +1,11 @@
+C:\Users\Furqan\documents\visual studio 2012\Projects\PharmacyManagement\PharmacyManagement\bin\PharmacyManagement.dll
+C:\Users\Furqan\documents\visual studio 2012\Projects\PharmacyManagement\PharmacyManagement\bin\PharmacyManagement.pdb
+C:\Users\Furqan\documents\visual studio 2012\Projects\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.dll
+C:\Users\Furqan\documents\visual studio 2012\Projects\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.pdb
+C:\Users\Furqan\documents\visual studio 2012\Projects\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.csprojResolveAssemblyReference.cache
+D:\Docs\sem 5\DB\Project\PharmacyManagement\PharmacyManagement\PharmacyManagement\bin\PharmacyManagement.dll.config
+D:\Docs\sem 5\DB\Project\PharmacyManagement\PharmacyManagement\PharmacyManagement\bin\PharmacyManagement.dll
+D:\Docs\sem 5\DB\Project\PharmacyManagement\PharmacyManagement\PharmacyManagement\bin\PharmacyManagement.pdb
+D:\Docs\sem 5\DB\Project\PharmacyManagement\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.csprojResolveAssemblyReference.cache
+D:\Docs\sem 5\DB\Project\PharmacyManagement\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.dll
+D:\Docs\sem 5\DB\Project\PharmacyManagement\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.pdb
